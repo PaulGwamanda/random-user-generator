@@ -1,0 +1,101 @@
+section {
+  padding: 5em 0;
+  min-height: 50vh;
+
+  .profile-card {
+    margin-top: -50vh;
+
+    .card-header {
+      padding: 60px;
+    }
+
+    .profile-image {
+      margin-top: -100px;
+
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid #D4D4D4;
+      }
+    }
+
+    .info-icons {
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px auto 20px auto;
+
+      .icon {
+        display: block;
+        width: 40px;
+        height: 48px;
+        background-image: url(../images/card_icons.png);
+        background-size: 378px;
+        cursor: pointer;
+
+        &.user_ {
+          background-position: 0 -48px;
+          transition: all .3s ease-in-out;
+
+          &:hover,
+          &.active {
+            background-position: 0 -96px;
+          }
+        }
+
+        &.email_ {
+          background-position: -68px -48px;
+          transition: all .3s ease-in-out;
+
+          &:hover,
+          &.active {
+            background-position: -68px -96px;
+          }
+        }
+
+        &.birthday_ {
+          background-position: -136px -48px;
+          transition: all .3s ease-in-out;
+
+          &:hover,
+          &.active {
+            background-position: -136px -96px;
+          }
+        }
+
+        &.location_ {
+          background-position: -205px -48px;
+          transition: all .3s ease-in-out;
+
+          &:hover,
+          &.active {
+            background-position: -205px -96px;
+          }
+        }
+
+        &.phone_ {
+          background-position: -274px -48px;
+          transition: all .3s ease-in-out;
+
+          &:hover,
+          &.active {
+            background-position: -274px -96px;
+          }
+        }
+
+        &.password_ {
+          background-position: -338px -48px;
+          transition: all .3s ease-in-out;
+
+          &:hover,
+          &.active {
+            background-position: -338px -96px;
+          }
+        }
+      }
+    }
+  }
+}
+

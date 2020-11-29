@@ -1,0 +1,94 @@
+section {
+  padding: 5em 0;
+  min-height: 50vh;
+}
+
+section .profile-card {
+  margin-top: -50vh;
+}
+
+section .profile-card .card-header {
+  padding: 60px;
+}
+
+section .profile-card .profile-image {
+  margin-top: -100px;
+}
+
+section .profile-card .profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #D4D4D4;
+}
+
+section .profile-card .info-icons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto 20px auto;
+}
+
+section .profile-card .info-icons .icon {
+  display: block;
+  width: 40px;
+  height: 48px;
+  background-image: url(../images/card_icons.png);
+  background-size: 378px;
+  cursor: pointer;
+}
+
+section .profile-card .info-icons .icon.user_ {
+  background-position: 0 -48px;
+  transition: all .3s ease-in-out;
+}
+
+section .profile-card .info-icons .icon.user_:hover, section .profile-card .info-icons .icon.user_.active {
+  background-position: 0 -96px;
+}
+
+section .profile-card .info-icons .icon.email_ {
+  background-position: -68px -48px;
+  transition: all .3s ease-in-out;
+}
+
+section .profile-card .info-icons .icon.email_:hover, section .profile-card .info-icons .icon.email_.active {
+  background-position: -68px -96px;
+}
+
+section .profile-card .info-icons .icon.birthday_ {
+  background-position: -136px -48px;
+  transition: all .3s ease-in-out;
+}
+
+section .profile-card .info-icons .icon.birthday_:hover, section .profile-card .info-icons .icon.birthday_.active {
+  background-position: -136px -96px;
+}
+
+section .profile-card .info-icons .icon.location_ {
+  background-position: -205px -48px;
+  transition: all .3s ease-in-out;
+}
+
+section .profile-card .info-icons .icon.location_:hover, section .profile-card .info-icons .icon.location_.active {
+  background-position: -205px -96px;
+}
+
+section .profile-card .info-icons .icon.phone_ {
+  background-position: -274px -48px;
+  transition: all .3s ease-in-out;
+}
+
+section .profile-card .info-icons .icon.phone_:hover, section .profile-card .info-icons .icon.phone_.active {
+  background-position: -274px -96px;
+}
+
+section .profile-card .info-icons .icon.password_ {
+  background-position: -338px -48px;
+  transition: all .3s ease-in-out;
+}
+
+section .profile-card .info-icons .icon.password_:hover, section .profile-card .info-icons .icon.password_.active {
+  background-position: -338px -96px;
+}
